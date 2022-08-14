@@ -1,1 +1,4 @@
 k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.38.3
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.38.3
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.28.0
