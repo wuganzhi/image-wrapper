@@ -11,4 +11,4 @@ gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.38.3
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.38.3
 gcr.io/google.com/cloudsdktool/cloud-sdk:latest
 ghcr.io/distroless/busybox:latest
-mcr.microsoft.com/powershell:latest
+mcr.microsoft.com/powershell:nanoserver
