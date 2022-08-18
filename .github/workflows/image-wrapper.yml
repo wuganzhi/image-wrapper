@@ -21,7 +21,7 @@ jobs:
       - name: Pull & Rename Images
         run: |
           for img in $(cat images.txt);do docker pull $img;done
-          for img in $(cat images.txt);do echo $img | awk -F/ '{print $NF}' | xargs -I {} docker tag $img ka1i137/{} ;done
+          IFS=$'\n\n' &&for img in $(cat images.txt);do echo $img | awk '{print $1}' | awk -F/ '{print $NF}' | xargs -I {} echo "docker tag $(echo $img | awk '{print $1}') ---> ka1i137/$(echo $img | awk '{print $2}')-{}";done
       - name: Push Images
         run: |
           for img in $(docker images| grep ka1i137 | awk -v OFS=':' '{print $1,$2}');do docker push $img ;done
