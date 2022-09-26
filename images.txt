@@ -16,3 +16,4 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.20.2 tekto
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.20.2 tektoncd-triggers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.20.2 tektoncd-triggers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.20.2 tektoncd-triggers
+docker.elastic.co/elasticsearch/elasticsearch:6.8.6 elastic
