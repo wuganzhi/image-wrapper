@@ -17,3 +17,5 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.20.
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.20.2 tektoncd-triggers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.20.2 tektoncd-triggers
 docker.elastic.co/elasticsearch/elasticsearch:6.8.6 elastic
+skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0 apache
+skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0 apache
