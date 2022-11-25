@@ -1,7 +1,7 @@
 k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2 sig-storage 
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.42.0 tektoncd-pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.42.0 tektoncd-pipeline
-gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.28.0 tektoncd
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.30.0 tektoncd
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter:v0.42.0 tektoncd-pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init:v0.42.0 tektoncd-pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.42.0 tektoncd-pipeline
@@ -9,13 +9,14 @@ gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.42.0 tektoncd-pip
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.42.0 tektoncd-pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.42.0 tektoncd-pipeline
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.42.0 tektoncd-pipeline
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.42.0 tektoncd-pipeline
 gcr.io/google.com/cloudsdktool/cloud-sdk:latest cloudsdktool
 cgr.dev/chainguard/busybox:latest cgr.dev
 mcr.microsoft.com/powershell:latest mcr.microsoft.com
-gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.20.2 tektoncd-triggers
-gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.20.2 tektoncd-triggers
-gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.20.2 tektoncd-triggers
-gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.20.2 tektoncd-triggers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.22.0 tektoncd-triggers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.22.2 tektoncd-triggers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.22.2 tektoncd-triggers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.22.2 tektoncd-triggers
 docker.elastic.co/elasticsearch/elasticsearch:6.8.6 elastic
 skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0 apache
 skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0 apache
