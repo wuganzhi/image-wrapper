@@ -6,4 +6,4 @@ k8s.gcr.io/pause:3.6 k8s
 k8s.gcr.io/etcd:3.5.1-0 k8s
 k8s.gcr.io/coredns/coredns:v1.8.6 k8s
 registry.k8s.io/ingress-nginx/controller:v1.5.1 ingress-nginx
-ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343 ingress-nginx
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343 ingress-nginx
