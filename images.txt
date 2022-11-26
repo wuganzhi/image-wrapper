@@ -1,1 +1,1 @@
-gcr.io/cadvisor/cadvisor:0.46.0 google
+gcr.io/cadvisor/cadvisor:v0.46.0 google
