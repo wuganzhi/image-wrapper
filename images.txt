@@ -1,3 +1,1 @@
-registry.k8s.io/ingress-nginx/controller:v1.4.0 ingress-nginx
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343 ingress-nginx
-registry.k8s.io/defaultbackend-amd64:1.5 ingress-nginx
+k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2 sig-storage 
