@@ -1,6 +1,6 @@
-registry.k8s.io/sig-storage/csi-provisioner:v3.5.0 sig-storage
-registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2 sig-storage
-registry.k8s.io/sig-storage/csi-attacher:v4.3.0 sig-storage
-registry.k8s.io/sig-storage/csi-resizer:v1.8.0 sig-storage
-quay.io/cephcsi/cephcsi:canary cephcsi
-registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0 sig-storage
+registry.k8s.io/sig-storage/csi-provisioner:v3.5.0 registry.k8s.io
+registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2 registry.k8s.io
+registry.k8s.io/sig-storage/csi-attacher:v4.3.0 registry.k8s.io
+registry.k8s.io/sig-storage/csi-resizer:v1.8.0 registry.k8s.io
+quay.io/cephcsi/cephcsi:canary quay.io
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0 registry.k8s.io
