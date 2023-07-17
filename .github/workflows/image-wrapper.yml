@@ -21,7 +21,7 @@ jobs:
       - name: Pull & Rename Images
         run: |
           IFS=$'\n\n' && for img in $(cat images.txt);do echo $img | awk '{print $1}'| xargs -I {} docker pull {};done
-          IFS=$'\n\n' && for img in $(cat images.txt);do echo $img | awk '{print $1}' | awk -F/ '{print $NF}' | xargs -I {} docker tag $(echo $img | awk '{print $1}') aa1615175118/{} ;done
+          IFS=$'\n\n' && for img in $(cat images.txt);do echo $img | awk '{print $1}' | awk -F/ '{print $NF}' | xargs -I {} docker tag $(echo $img | awk '{print $1}') aa1615175118/$(echo $img | awk '{print $1}'){} ;done
       - name: Show All Images
         run: |
           docker images
@@ -30,4 +30,4 @@ jobs:
           docker images| grep aa1615175118
       - name: Push Images
         run: |
-          for img in $(docker images| grep aa1615175118);do docker push $img ;done
+          for img in $(docker images| grep aa1615175118 | awk -v OFS=':' '{print $1,$2}');do docker push $img ;done
