@@ -6,4 +6,3 @@ quay.io/prometheus/prometheus:v2.41.0 quay
 quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.28.0 quay
 registry.k8s.io/metrics-server/metrics-server:v0.6.3 k8s
 skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.3.0 apache
-
